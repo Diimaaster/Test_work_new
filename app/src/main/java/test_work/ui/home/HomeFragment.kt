@@ -81,6 +81,7 @@ class HomeFragment : Fragment() {
             binding.ctg3.setBackgroundColor(Color.parseColor("#ffffff"))
             binding.ctg4.setTextColor(Color.parseColor("#C3C4C9"))
             binding.ctg4.setBackgroundColor(Color.parseColor("#ffffff"))
+            init()
         }
         binding.ctg3.setOnClickListener{
             binding.ctg3.setTextColor(Color.parseColor("#FD3A69"))
@@ -91,6 +92,7 @@ class HomeFragment : Fragment() {
             binding.ctg1.setBackgroundColor(Color.parseColor("#ffffff"))
             binding.ctg4.setTextColor(Color.parseColor("#C3C4C9"))
             binding.ctg4.setBackgroundColor(Color.parseColor("#ffffff"))
+            init()
         }
         binding.ctg4.setOnClickListener{
             binding.ctg4.setTextColor(Color.parseColor("#FD3A69"))
@@ -101,6 +103,7 @@ class HomeFragment : Fragment() {
             binding.ctg3.setBackgroundColor(Color.parseColor("#ffffff"))
             binding.ctg1.setTextColor(Color.parseColor("#C3C4C9"))
             binding.ctg1.setBackgroundColor(Color.parseColor("#ffffff"))
+            init()
         }
         return root
     }
