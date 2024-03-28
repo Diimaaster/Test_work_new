@@ -158,7 +158,7 @@ class HomeFragment : Fragment() {
 
             }
             Log.d("TEST_API", str_Sostav.toString())
-            Toast.makeText(context,"$str_Name\n\n$str_Image",Toast.LENGTH_LONG).show()
+            //Toast.makeText(context,"$str_Name\n\n$str_Image",Toast.LENGTH_LONG).show()
             getCtg()
         }, {err ->
             Log.d("Volley Sample Fail", err.message.toString())
