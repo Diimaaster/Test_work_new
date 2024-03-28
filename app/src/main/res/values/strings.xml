@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Test_work</string>
+    <string name="title_home">Меню</string>
+    <string name="title_dashboard">Профиль</string>
+    <string name="title_notifications">Корзина</string>
+    <string name="qr_code">qr_code</string>
+    <string-array name="city">
+        <item>Москва</item>
+        <item>Казань</item>
+        <item>Санкт-Петербург</item>
+        <item>Омск</item>
+    </string-array>
+</resources>
